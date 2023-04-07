@@ -1,0 +1,90 @@
+.information-bar{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 160px;
+    height: 50px;
+}
+.Left-part{
+    width: 200px;
+    flex-shrink: 0;
+}
+.middle-part {
+    display: flex;
+    align-items: center;
+}
+
+.search-button
+{
+    font-size: larger;
+    justify-content: center;
+    width: 800px;
+    height: 50px;
+    border-radius: 49px;
+    border-style: solid;
+    border-width: 1px;
+
+
+    color: rgb(60, 59, 59);
+}
+.right-part{
+    width: 200px;
+    padding-bottom: 4px;
+    padding-left: 2px;
+
+}
+.account-icon:hover,.note-icon:hover,.cart-icon:hover,.searchIcon:hover,.headerButton2:hover,.headerButton1:hover{
+    cursor: pointer; 
+ }
+ .account-icon:active,.cart-icon:active,.note-icon:active,.searchIcon:active,.headerButton2:active,.headerButton1:active{
+    opacity: 0.3;
+ } 
+ .cart-icon,.account-icon{
+    width: 35px;
+    height: 35px;
+}
+.note-icon{
+    width: 135%;
+    height: 100%;
+    display: flex;
+    margin-bottom: -4px;
+}
+.searchIcon{
+    height: 35px;
+    width: 35px;
+    margin-bottom: 2px !important;
+}
+.headerButton3{
+     height: 50px;
+     width: 50px;
+     background-color: white;
+     border-color: white;
+     border-style: solid;
+}
+
+.headerButton2,.headerButton1{
+    display: inline-block;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    flex-direction: column;
+    width: 600px;
+    height: 45px;
+    align-items: center;
+    font-size: large;
+    justify-content: center;
+    padding-top: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.secondaryHeader {
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}

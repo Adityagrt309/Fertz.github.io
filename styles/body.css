@@ -1,0 +1,15 @@
+.body-matter{
+    display: flex;
+}
+.content{
+    width: 1fr;
+}
+.images{
+    width: 490px;;
+}
+    
+.image1{
+    border-radius: 645px; 
+    width: 400px; 
+    margin-top: 100px;
+}
